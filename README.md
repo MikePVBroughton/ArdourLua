@@ -14,3 +14,5 @@ for note in notelist:iter () do
   midi_command:add (newnote)
 end
 midi_model:apply_command (Session, midi_command)
+
+
