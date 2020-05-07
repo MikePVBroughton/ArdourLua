@@ -1,8 +1,8 @@
 ardour {
 	["type"] = "EditorAction",
-	name = "Split Midi Notes to Tracks 1",
+	name = "Midi Split(ish)",
 	author = "Miike Broughton",
-	description = [[Creates tracks as required for each note in a selected region(s).]]
+	description = [[Removes notes by channel and note nuber from region(s).]]
 }
 
 function factory () return function ()
